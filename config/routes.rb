@@ -714,6 +714,9 @@ Rails.application.routes.draw do
             post "from_template/:template_id", to: "warehouse_orders#from_template", as: :from_template
           end
         end
+
+        # Delegated auth endpoints (JWT-authenticated, no APIKey)
+        post "delegated/send_mail", to: "delegated#send_mail"
       end
     end
   end

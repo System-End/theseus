@@ -182,3 +182,6 @@ gem "paper_trail", "~> 16.0"
 gem "ttfunk", github: "24c02/ttfunk"
 
 gem "hcbv4", "~> 0.2"
+
+gem "jwt", "~> 2.9"
+gem "ed25519", "~> 1.3"
