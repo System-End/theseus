@@ -81,7 +81,7 @@ gem "hashid-rails", "~> 1.4"
 
 gem "csv", "~> 3.3"
 
-gem "faraday", "~> 2.13"
+gem "faraday", "~> 2.14"
 
 gem "oauth2", "~> 2.0"
 
@@ -138,7 +138,7 @@ gem "ivymeter", "~> 0.1.0"
 
 gem "slack-notifier", "~> 2.4"
 
-gem "nokogiri", "~> 1.18"
+gem "nokogiri", "~> 1.19"
 
 gem "vite_rails"
 
