@@ -1,1 +1,2 @@
-FROM ghcr.io/system-end/theseus:latest
+ARG OWNER=system-end
+FROM ghcr.io/${OWNER}/theseus:latest
